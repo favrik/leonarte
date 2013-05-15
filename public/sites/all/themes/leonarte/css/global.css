@@ -68,14 +68,25 @@ ul.menu li.expanded ul.menu {
   border-top: 1px solid #cecece;
 }
 
-/* -- flexslider -- */
+/* -- content --- */
 /* line 70, ../scss/global.scss */
+h1.title {
+  display: none;
+}
+
+/* line 73, ../scss/global.scss */
+#node-page-252 {
+  text-align: right;
+}
+
+/* -- flexslider -- */
+/* line 78, ../scss/global.scss */
 .flexslider {
   background: #000;
   border: 0 none;
 }
 
-/* line 74, ../scss/global.scss */
+/* line 82, ../scss/global.scss */
 .flex-control-thumbs li {
   width: initial;
   margin: 3px 5px;
