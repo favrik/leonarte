@@ -348,4 +348,7 @@ settings[alpha_region_footer_second_columns] = '12'
 settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
+fonts[google_fonts_api][] = "Kaushan Script&subset=latin#regular"
+fonts[google_fonts_api][] = "Noto Serif&subset=latin#700italic"
+fonts[google_fonts_api][] = "Noto Serif&subset=latin#italic"
 version = '1.x'

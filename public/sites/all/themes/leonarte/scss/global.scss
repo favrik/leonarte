@@ -7,13 +7,15 @@
 body {
   background: $black;
   color: $gray;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
   line-height: 140%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Noto Serif', serif;
   color: $gray;
 }
 
@@ -33,21 +35,28 @@ a, a:link, a:visited {
 /* -- main menu -- */
 ul.menu {
   li {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.2em;
+    line-height: 1.2em;
     list-style-image: none;
     list-style-type: none;
     padding: 5px;
     margin: 0 0;
+
+    span.nolink {
+      font-size: 1.2em;
+      line-height: 1.2em;
+    }
   }
 
   li.leaf {
     &.active-trail {
       @include background-image(linear-gradient($gradient_start, $gradient_end));
-      // background: red;
     }
   }
 
   a.active {
-    color: $gray;
+    color: $whiteish;
   }
 
   li.expanded {
