@@ -1,2 +1,72 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/* line 7, ../scss/global.scss */
+body {
+  background: black;
+  color: #bdbdbd;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+/* line 15, ../scss/global.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #bdbdbd;
+}
+
+/* line 20, ../scss/global.scss */
+a, a:link, a:visited {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+/* -- zones --- */
+/* line 26, ../scss/global.scss */
+.zone {
+  margin-bottom: 1em;
+}
+
+/* line 29, ../scss/global.scss */
+.block {
+  margin-bottom: 1em;
+}
+
+/* -- main menu -- */
+/* line 35, ../scss/global.scss */
+ul.menu li {
+  list-style-image: none;
+  list-style-type: none;
+  padding: 5px;
+  margin: 0 0;
+}
+/* line 43, ../scss/global.scss */
+ul.menu li.leaf.active-trail {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #111111), color-stop(100%, #292929));
+  background-image: -webkit-linear-gradient(#111111, #292929);
+  background-image: -moz-linear-gradient(#111111, #292929);
+  background-image: -o-linear-gradient(#111111, #292929);
+  background-image: -ms-linear-gradient(#111111, #292929);
+  background-image: linear-gradient(#111111, #292929);
+}
+/* line 49, ../scss/global.scss */
+ul.menu a.active {
+  color: #bdbdbd;
+}
+/* line 54, ../scss/global.scss */
+ul.menu li.expanded ul.menu {
+  border-top: 1px solid #bdbdbd;
+}
+
+/* -- flexslider -- */
+/* line 61, ../scss/global.scss */
+.flexslider {
+  background: #000;
+  border: 0 none;
+}
+
+/* line 65, ../scss/global.scss */
+.flex-control-thumbs li {
+  width: initial;
+  margin: 3px 5px;
+}

@@ -1,0 +1,68 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+@import "compass/css3";
+@import "variables";
+
+body {
+  background: $black;
+  color: $gray;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: $gray;
+}
+
+a, a:link, a:visited {
+  color: $gray;
+  text-decoration: none;
+}
+
+/* -- zones --- */
+.zone {
+  margin-bottom: 1em;
+}
+.block {
+  margin-bottom: 1em;
+}
+
+/* -- main menu -- */
+ul.menu {
+  li {
+    list-style-image: none;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0 0;
+  }
+
+  li.leaf {
+    &.active-trail {
+      @include background-image(linear-gradient($gradient_start, $gradient_end));
+      // background: red;
+    }
+  }
+
+  a.active {
+    color: $gray;
+  }
+
+  li.expanded {
+    ul.menu {
+      border-top: 1px solid $gray;
+    }
+  }
+}
+
+/* -- flexslider -- */
+.flexslider {
+  background: #000;
+  border: 0 none;
+}
+.flex-control-thumbs li {
+  width: initial;
+  margin: 3px 5px;
+}
