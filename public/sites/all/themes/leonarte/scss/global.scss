@@ -79,7 +79,35 @@ h1.title {
   background: #000;
   border: 0 none;
 }
+.flex-control-thumbs {
+  margin-bottom: 1.5em;
+}
 .flex-control-thumbs li {
   width: initial;
-  margin: 3px 5px;
+  margin: 4px 5px;
+  border: 1px solid #373737;
+}
+.flex-active-slide {
+  .field-content.obra-title {
+    height: 0;
+  }
+  .transparency {
+    background: $black;
+    opacity: 0.9;
+    height: 100px;
+    position: relative;
+    top: -100px;
+  }
+  .obra {
+    position: relative;
+    top: -200px;
+    padding: 15px;
+    height: 0;
+  }
+  .obra-info {
+    position: relative;
+    top: -95px;
+    padding: 15px;
+    height: 0;
+  }
 }

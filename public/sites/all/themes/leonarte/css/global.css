@@ -87,7 +87,40 @@ h1.title {
 }
 
 /* line 82, ../scss/global.scss */
+.flex-control-thumbs {
+  margin-bottom: 1.5em;
+}
+
+/* line 85, ../scss/global.scss */
 .flex-control-thumbs li {
   width: initial;
-  margin: 3px 5px;
+  margin: 4px 5px;
+  border: 1px solid #373737;
+}
+
+/* line 91, ../scss/global.scss */
+.flex-active-slide .field-content.obra-title {
+  height: 0;
+}
+/* line 94, ../scss/global.scss */
+.flex-active-slide .transparency {
+  background: black;
+  opacity: 0.9;
+  height: 100px;
+  position: relative;
+  top: -100px;
+}
+/* line 101, ../scss/global.scss */
+.flex-active-slide .obra {
+  position: relative;
+  top: -200px;
+  padding: 15px;
+  height: 0;
+}
+/* line 107, ../scss/global.scss */
+.flex-active-slide .obra-info {
+  position: relative;
+  top: -95px;
+  padding: 15px;
+  height: 0;
 }
