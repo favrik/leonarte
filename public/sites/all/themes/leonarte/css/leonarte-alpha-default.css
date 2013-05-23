@@ -1,21 +1,23 @@
-/* line 1, ../scss/leonarte-alpha-default.scss */
+/* line 3, ../scss/_sticky_footer.scss */
 HTML, BODY {
   height: 100%;
 }
 
-/* line 5, ../scss/leonarte-alpha-default.scss */
+/* line 7, ../scss/_sticky_footer.scss */
 #page {
   min-height: 100%;
   position: relative;
 }
 
-/* line 10, ../scss/leonarte-alpha-default.scss */
+/* line 12, ../scss/_sticky_footer.scss */
 #section-content {
+  background: transparent;
   padding-bottom: 55px;
 }
 
-/* line 14, ../scss/leonarte-alpha-default.scss */
+/* line 17, ../scss/_sticky_footer.scss */
 #section-footer {
+  background: black url("/sites/all/themes/leonarte/css/images/grecas.jpg") no-repeat left top;
   position: absolute;
   bottom: 0;
   width: 100%;

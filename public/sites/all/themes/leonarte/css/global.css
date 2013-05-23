@@ -1,41 +1,7 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
-/* line 7, ../scss/global.scss */
-body {
-  background: black;
-  color: #cecece;
-  font-family: 'Noto Serif', serif;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: italic;
-  line-height: 140%;
-}
-
-/* line 17, ../scss/global.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Serif', serif;
-  color: #cecece;
-}
-
-/* line 22, ../scss/global.scss */
-a, a:link, a:visited {
-  color: #cecece;
-  text-decoration: none;
-}
-
-/* -- zones --- */
-/* line 28, ../scss/global.scss */
-.zone {
-  margin-bottom: 1em;
-}
-
-/* line 31, ../scss/global.scss */
-.block {
-  margin-bottom: 1em;
-}
-
 /* -- main menu -- */
-/* line 37, ../scss/global.scss */
+/* line 5, ../scss/_menu.scss */
 ul.menu li {
   font-family: 'Kaushan Script', cursive;
   font-size: 1.2em;
@@ -45,12 +11,12 @@ ul.menu li {
   padding: 5px;
   margin: 0 0;
 }
-/* line 46, ../scss/global.scss */
+/* line 14, ../scss/_menu.scss */
 ul.menu li span.nolink {
   font-size: 1.2em;
   line-height: 1.2em;
 }
-/* line 53, ../scss/global.scss */
+/* line 21, ../scss/_menu.scss */
 ul.menu li.leaf.active-trail {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #111111), color-stop(100%, #292929));
   background-image: -webkit-linear-gradient(#111111, #292929);
@@ -59,50 +25,39 @@ ul.menu li.leaf.active-trail {
   background-image: -ms-linear-gradient(#111111, #292929);
   background-image: linear-gradient(#111111, #292929);
 }
-/* line 58, ../scss/global.scss */
+/* line 26, ../scss/_menu.scss */
 ul.menu a.active {
   color: #f2f2f2;
 }
-/* line 63, ../scss/global.scss */
+/* line 31, ../scss/_menu.scss */
 ul.menu li.expanded ul.menu {
   border-top: 1px solid #cecece;
 }
 
-/* -- content --- */
-/* line 70, ../scss/global.scss */
-h1.title {
-  display: none;
-}
-
-/* line 73, ../scss/global.scss */
-#node-page-252 {
-  text-align: right;
-}
-
 /* -- flexslider -- */
-/* line 78, ../scss/global.scss */
+/* line 4, ../scss/_flexslider.scss */
 .flexslider {
-  background: #000;
+  background: transparent;
   border: 0 none;
 }
 
-/* line 82, ../scss/global.scss */
+/* line 8, ../scss/_flexslider.scss */
 .flex-control-thumbs {
   margin-bottom: 1.5em;
 }
 
-/* line 85, ../scss/global.scss */
+/* line 11, ../scss/_flexslider.scss */
 .flex-control-thumbs li {
   width: initial;
   margin: 4px 5px;
   border: 1px solid #373737;
 }
 
-/* line 91, ../scss/global.scss */
+/* line 17, ../scss/_flexslider.scss */
 .flex-active-slide .field-content.obra-title {
   height: 0;
 }
-/* line 94, ../scss/global.scss */
+/* line 20, ../scss/_flexslider.scss */
 .flex-active-slide .transparency {
   background: black;
   opacity: 0.9;
@@ -110,46 +65,80 @@ h1.title {
   position: relative;
   top: -100px;
 }
-/* line 101, ../scss/global.scss */
+/* line 27, ../scss/_flexslider.scss */
 .flex-active-slide .obra {
   position: relative;
   top: -200px;
   padding: 15px;
   height: 0;
 }
-/* line 107, ../scss/global.scss */
+/* line 33, ../scss/_flexslider.scss */
 .flex-active-slide .obra-info {
   position: relative;
   top: -95px;
-  padding: 15px;
+  padding: 20px 15px;
   height: 0;
 }
 
+/* line 9, ../scss/global.scss */
+html {
+  background: black;
+}
+
+/* line 13, ../scss/global.scss */
+body {
+  background: transparent;
+  color: #cecece;
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 140%;
+}
+
+/* line 23, ../scss/global.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif', serif;
+  color: #cecece;
+}
+
+/* line 28, ../scss/global.scss */
+a, a:link, a:visited {
+  color: #cecece;
+  text-decoration: none;
+}
+
+/* -- zones --- */
+/* line 34, ../scss/global.scss */
+.zone {
+  margin-bottom: 1em;
+}
+
+/* line 37, ../scss/global.scss */
+.block {
+  margin-bottom: 1em;
+}
+
+/* -- content --- */
+/* line 43, ../scss/global.scss */
+h1.title {
+  display: none;
+}
+
+/* line 46, ../scss/global.scss */
+#node-page-252 {
+  text-align: right;
+}
+
 /*-- footer -- */
-/* line 116, ../scss/global.scss */
+/* line 52, ../scss/global.scss */
 .signature {
   float: right;
 }
 
-/* line 120, ../scss/global.scss */
-HTML, BODY {
-  height: 100%;
-}
-
-/* line 124, ../scss/global.scss */
-#page {
-  min-height: 100%;
-  position: relative;
-}
-
-/* line 129, ../scss/global.scss */
-#section-content {
-  padding-bottom: 55px;
-}
-
-/* line 133, ../scss/global.scss */
+/* line 56, ../scss/global.scss */
 #section-footer {
-  position: absolute;
+  background: black url("/sites/all/themes/leonarte/css/images/grecas.jpg") no-repeat left top;
+  position: relative;
   bottom: 0;
-  width: 100%;
 }

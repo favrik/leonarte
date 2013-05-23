@@ -1,18 +1,2 @@
-HTML, BODY {
-  height: 100%;
-}
-
-#page {
-  min-height: 100%;
-  position: relative;
-}
-
-#section-content {
-  padding-bottom: 55px;
-}
-
-#section-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+@import "variables";
+@import "sticky_footer";

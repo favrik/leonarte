@@ -1,0 +1,22 @@
+@import "variables";
+
+HTML, BODY {
+  height: 100%;
+}
+
+#page {
+  min-height: 100%;
+  position: relative;
+}
+
+#section-content {
+  background: transparent;
+  padding-bottom: 55px;
+}
+
+#section-footer {
+  background: $black url('/sites/all/themes/leonarte/css/images/grecas.jpg') no-repeat left top;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

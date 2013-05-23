@@ -3,9 +3,15 @@
 
 @import "compass/css3";
 @import "variables";
+@import "menu";
+@import "flexslider";
+
+html {
+  background: $black;
+}
 
 body {
-  background: $black;
+  background: transparent;
   color: $gray;
   font-family: 'Noto Serif', serif;
   font-size: 18px;
@@ -32,39 +38,6 @@ a, a:link, a:visited {
   margin-bottom: 1em;
 }
 
-/* -- main menu -- */
-ul.menu {
-  li {
-    font-family: 'Kaushan Script', cursive;
-    font-size: 1.2em;
-    line-height: 1.2em;
-    list-style-image: none;
-    list-style-type: none;
-    padding: 5px;
-    margin: 0 0;
-
-    span.nolink {
-      font-size: 1.2em;
-      line-height: 1.2em;
-    }
-  }
-
-  li.leaf {
-    &.active-trail {
-      @include background-image(linear-gradient($gradient_start, $gradient_end));
-    }
-  }
-
-  a.active {
-    color: $whiteish;
-  }
-
-  li.expanded {
-    ul.menu {
-      border-top: 1px solid $gray;
-    }
-  }
-}
 
 /* -- content --- */
 h1.title {
@@ -74,64 +47,14 @@ h1.title {
   text-align: right;
 }
 
-/* -- flexslider -- */
-.flexslider {
-  background: #000;
-  border: 0 none;
-}
-.flex-control-thumbs {
-  margin-bottom: 1.5em;
-}
-.flex-control-thumbs li {
-  width: initial;
-  margin: 4px 5px;
-  border: 1px solid #373737;
-}
-.flex-active-slide {
-  .field-content.obra-title {
-    height: 0;
-  }
-  .transparency {
-    background: $black;
-    opacity: 0.9;
-    height: 100px;
-    position: relative;
-    top: -100px;
-  }
-  .obra {
-    position: relative;
-    top: -200px;
-    padding: 15px;
-    height: 0;
-  }
-  .obra-info {
-    position: relative;
-    top: -95px;
-    padding: 15px;
-    height: 0;
-  }
-}
 
 /*-- footer -- */
 .signature {
   float: right;
 }
 
-HTML, BODY {
-  height: 100%;
-}
-
-#page {
-  min-height: 100%;
-  position: relative;
-}
-
-#section-content {
-  padding-bottom: 55px;
-}
-
 #section-footer {
-  position: absolute;
+  background: $black url('/sites/all/themes/leonarte/css/images/grecas.jpg') no-repeat left top;
+  position: relative;
   bottom: 0;
-  width: 100%;
 }
