@@ -1,1 +1,22 @@
-/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+/* line 1, ../scss/leonarte-alpha-default.scss */
+HTML, BODY {
+  height: 100%;
+}
+
+/* line 5, ../scss/leonarte-alpha-default.scss */
+#page {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 10, ../scss/leonarte-alpha-default.scss */
+#section-content {
+  padding-bottom: 55px;
+}
+
+/* line 14, ../scss/leonarte-alpha-default.scss */
+#section-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

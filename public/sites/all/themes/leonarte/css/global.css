@@ -124,3 +124,32 @@ h1.title {
   padding: 15px;
   height: 0;
 }
+
+/*-- footer -- */
+/* line 116, ../scss/global.scss */
+.signature {
+  float: right;
+}
+
+/* line 120, ../scss/global.scss */
+HTML, BODY {
+  height: 100%;
+}
+
+/* line 124, ../scss/global.scss */
+#page {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 129, ../scss/global.scss */
+#section-content {
+  padding-bottom: 55px;
+}
+
+/* line 133, ../scss/global.scss */
+#section-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

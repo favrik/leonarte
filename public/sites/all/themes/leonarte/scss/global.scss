@@ -111,3 +111,27 @@ h1.title {
     height: 0;
   }
 }
+
+/*-- footer -- */
+.signature {
+  float: right;
+}
+
+HTML, BODY {
+  height: 100%;
+}
+
+#page {
+  min-height: 100%;
+  position: relative;
+}
+
+#section-content {
+  padding-bottom: 55px;
+}
+
+#section-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
