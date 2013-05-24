@@ -3,7 +3,7 @@
 
 @import "compass/css3";
 @import "variables";
-@import "menu";
+@import "menu_mobile";
 @import "flexslider";
 
 html {
@@ -45,6 +45,16 @@ h1.title {
 }
 #node-page-252 {
   text-align: right;
+}
+.handwritten {
+  font-family: 'Kaushan Script', cursive;
+  margin-top: 0.7em;
+
+  span {
+    font-family: 'Noto Serif', serif;
+    font-size: 75%;
+    margin-left: 10px;
+  }
 }
 
 

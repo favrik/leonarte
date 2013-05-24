@@ -2,3 +2,37 @@
 /* If you are using the default media queries provided by Omega, these styles will also */
 /*  apply to the normal and widescreen layouts. You may override these styles in the normal */
 /*  and widescreen CSS files as appropriate. */
+/* -- main menu -- */
+/* line 5, ../scss/_menu.scss */
+ul.menu li {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  list-style-image: none;
+  list-style-type: none;
+  padding: 5px;
+  margin: 0 0;
+  display: block;
+}
+/* line 15, ../scss/_menu.scss */
+ul.menu li span.nolink {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+/* line 22, ../scss/_menu.scss */
+ul.menu li.leaf.active-trail {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #111111), color-stop(100%, #292929));
+  background-image: -webkit-linear-gradient(#111111, #292929);
+  background-image: -moz-linear-gradient(#111111, #292929);
+  background-image: -o-linear-gradient(#111111, #292929);
+  background-image: -ms-linear-gradient(#111111, #292929);
+  background-image: linear-gradient(#111111, #292929);
+}
+/* line 27, ../scss/_menu.scss */
+ul.menu a.active {
+  color: #f2f2f2;
+}
+/* line 32, ../scss/_menu.scss */
+ul.menu li.expanded ul.menu {
+  border-top: 1px solid #cecece;
+}

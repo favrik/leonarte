@@ -1,22 +1,23 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 /* -- main menu -- */
-/* line 5, ../scss/_menu.scss */
+/* line 5, ../scss/_menu_mobile.scss */
 ul.menu li {
   font-family: 'Kaushan Script', cursive;
   font-size: 1.2em;
   line-height: 1.2em;
   list-style-image: none;
   list-style-type: none;
-  padding: 5px;
+  padding: 5px 10px;
   margin: 0 0;
+  display: inline-block;
 }
-/* line 14, ../scss/_menu.scss */
+/* line 15, ../scss/_menu_mobile.scss */
 ul.menu li span.nolink {
   font-size: 1.2em;
   line-height: 1.2em;
 }
-/* line 21, ../scss/_menu.scss */
+/* line 22, ../scss/_menu_mobile.scss */
 ul.menu li.leaf.active-trail {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #111111), color-stop(100%, #292929));
   background-image: -webkit-linear-gradient(#111111, #292929);
@@ -25,11 +26,11 @@ ul.menu li.leaf.active-trail {
   background-image: -ms-linear-gradient(#111111, #292929);
   background-image: linear-gradient(#111111, #292929);
 }
-/* line 26, ../scss/_menu.scss */
+/* line 27, ../scss/_menu_mobile.scss */
 ul.menu a.active {
   color: #f2f2f2;
 }
-/* line 31, ../scss/_menu.scss */
+/* line 32, ../scss/_menu_mobile.scss */
 ul.menu li.expanded ul.menu {
   border-top: 1px solid #cecece;
 }
@@ -130,13 +131,25 @@ h1.title {
   text-align: right;
 }
 
+/* line 49, ../scss/global.scss */
+.handwritten {
+  font-family: 'Kaushan Script', cursive;
+  margin-top: 0.7em;
+}
+/* line 53, ../scss/global.scss */
+.handwritten span {
+  font-family: 'Noto Serif', serif;
+  font-size: 75%;
+  margin-left: 10px;
+}
+
 /*-- footer -- */
-/* line 52, ../scss/global.scss */
+/* line 62, ../scss/global.scss */
 .signature {
   float: right;
 }
 
-/* line 56, ../scss/global.scss */
+/* line 66, ../scss/global.scss */
 #section-footer {
   background: black url("/sites/all/themes/leonarte/css/images/grecas.jpg") no-repeat left top;
   position: relative;
