@@ -35,3 +35,10 @@ ul.menu {
     }
   }
 }
+
+/* custom media queries */
+@media screen and (min-width: 320px) and (max-width:638px) {
+  ul.menu li.expanded {
+    width: 95%;
+  }
+}
