@@ -30,7 +30,7 @@ ul.menu li.leaf.active-trail {
 ul.menu a.active {
   color: #f2f2f2;
 }
-/* line 32, ../scss/_menu_mobile.scss */
+/* line 33, ../scss/_menu_mobile.scss */
 ul.menu li.expanded ul.menu {
   border-top: 1px solid #cecece;
 }
@@ -81,12 +81,38 @@ ul.menu li.expanded ul.menu {
   height: 0;
 }
 
-/* line 9, ../scss/global.scss */
+/* line 3, ../scss/_sticky_footer.scss */
+HTML, BODY {
+  height: 100%;
+}
+
+/* line 7, ../scss/_sticky_footer.scss */
+#page {
+  min-height: 100%;
+  position: relative;
+  margin-top: 1em;
+}
+
+/* line 13, ../scss/_sticky_footer.scss */
+#section-content {
+  background: transparent;
+  padding-bottom: 55px;
+}
+
+/* line 18, ../scss/_sticky_footer.scss */
+#section-footer {
+  background: black url("/sites/all/themes/leonarte/css/images/grecas.jpg") no-repeat left top;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* line 10, ../scss/global.scss */
 html {
   background: black;
 }
 
-/* line 13, ../scss/global.scss */
+/* line 14, ../scss/global.scss */
 body {
   background: transparent;
   color: #cecece;
@@ -97,46 +123,46 @@ body {
   line-height: 140%;
 }
 
-/* line 23, ../scss/global.scss */
+/* line 24, ../scss/global.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Noto Serif', serif;
   color: #cecece;
 }
 
-/* line 28, ../scss/global.scss */
+/* line 29, ../scss/global.scss */
 a, a:link, a:visited {
   color: #cecece;
   text-decoration: none;
 }
 
 /* -- zones --- */
-/* line 34, ../scss/global.scss */
+/* line 35, ../scss/global.scss */
 .zone {
   margin-bottom: 1em;
 }
 
-/* line 37, ../scss/global.scss */
+/* line 38, ../scss/global.scss */
 .block {
   margin-bottom: 1em;
 }
 
 /* -- content --- */
-/* line 43, ../scss/global.scss */
+/* line 44, ../scss/global.scss */
 h1.title {
   display: none;
 }
 
-/* line 46, ../scss/global.scss */
+/* line 47, ../scss/global.scss */
 #node-page-252 {
   text-align: right;
 }
 
-/* line 49, ../scss/global.scss */
+/* line 50, ../scss/global.scss */
 .handwritten {
   font-family: 'Kaushan Script', cursive;
   margin-top: 0.7em;
 }
-/* line 53, ../scss/global.scss */
+/* line 54, ../scss/global.scss */
 .handwritten span {
   font-family: 'Noto Serif', serif;
   font-size: 75%;
@@ -144,14 +170,7 @@ h1.title {
 }
 
 /*-- footer -- */
-/* line 62, ../scss/global.scss */
+/* line 63, ../scss/global.scss */
 .signature {
   float: right;
-}
-
-/* line 66, ../scss/global.scss */
-#section-footer {
-  background: black url("/sites/all/themes/leonarte/css/images/grecas.jpg") no-repeat left top;
-  position: relative;
-  bottom: 0;
 }

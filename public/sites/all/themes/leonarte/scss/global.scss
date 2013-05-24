@@ -5,6 +5,7 @@
 @import "variables";
 @import "menu_mobile";
 @import "flexslider";
+@import "sticky_footer";
 
 html {
   background: $black;
@@ -61,10 +62,4 @@ h1.title {
 /*-- footer -- */
 .signature {
   float: right;
-}
-
-#section-footer {
-  background: $black url('/sites/all/themes/leonarte/css/images/grecas.jpg') no-repeat left top;
-  position: relative;
-  bottom: 0;
 }

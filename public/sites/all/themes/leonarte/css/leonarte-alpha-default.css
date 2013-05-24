@@ -7,15 +7,16 @@ HTML, BODY {
 #page {
   min-height: 100%;
   position: relative;
+  margin-top: 1em;
 }
 
-/* line 12, ../scss/_sticky_footer.scss */
+/* line 13, ../scss/_sticky_footer.scss */
 #section-content {
   background: transparent;
   padding-bottom: 55px;
 }
 
-/* line 17, ../scss/_sticky_footer.scss */
+/* line 18, ../scss/_sticky_footer.scss */
 #section-footer {
   background: black url("/sites/all/themes/leonarte/css/images/grecas.jpg") no-repeat left top;
   position: absolute;
