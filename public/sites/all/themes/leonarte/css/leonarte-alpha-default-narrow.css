@@ -1,4 +1,96 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the normal and widescreen layouts. You may override these styles in the normal 
- *  and widescreen CSS files as appropriate. */
+/* If you are using the default media queries provided by Omega, these styles will also */
+/*  apply to the normal and widescreen layouts. You may override these styles in the normal */
+/*  and widescreen CSS files as appropriate. */
+/* -- main menu -- */
+/* line 5, ../scss/_menu.scss */
+ul.menu li {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  list-style-image: none;
+  list-style-type: none;
+  padding: 5px;
+  margin: 0 0;
+  display: block;
+}
+/* line 15, ../scss/_menu.scss */
+ul.menu li span.nolink {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+/* line 22, ../scss/_menu.scss */
+ul.menu li.leaf.active-trail {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #111111), color-stop(100%, #292929));
+  background-image: -webkit-linear-gradient(#111111, #292929);
+  background-image: -moz-linear-gradient(#111111, #292929);
+  background-image: -o-linear-gradient(#111111, #292929);
+  background-image: -ms-linear-gradient(#111111, #292929);
+  background-image: linear-gradient(#111111, #292929);
+}
+/* line 27, ../scss/_menu.scss */
+ul.menu a.active {
+  color: #f2f2f2;
+}
+/* line 32, ../scss/_menu.scss */
+ul.menu li.expanded ul.menu {
+  border-top: 1px solid #cecece;
+}
+
+/* -- flexslider -- */
+/* line 4, ../scss/_flexslider_narrow.scss */
+.flexslider {
+  background: transparent;
+  border: 0 none;
+}
+/* line 8, ../scss/_flexslider_narrow.scss */
+.flexslider .slides img {
+  width: initial;
+  margin: 0 auto;
+}
+
+/* line 13, ../scss/_flexslider_narrow.scss */
+.flex-control-thumbs {
+  width: 80%;
+  margin: 0 auto 1.5em;
+}
+/* line 18, ../scss/_flexslider_narrow.scss */
+.flex-control-thumbs img {
+  opacity: 1;
+}
+
+/* line 22, ../scss/_flexslider_narrow.scss */
+.flex-control-thumbs li {
+  width: initial;
+  margin: 4px 5px;
+  border: 1px solid #373737;
+}
+
+/* line 28, ../scss/_flexslider_narrow.scss */
+.flex-active-slide .field-content.obra-title {
+  height: 0;
+}
+/* line 31, ../scss/_flexslider_narrow.scss */
+.flex-active-slide .transparency {
+  background: black;
+  opacity: 0.9;
+  height: 60px;
+  position: relative;
+  top: -60px;
+}
+/* line 38, ../scss/_flexslider_narrow.scss */
+.flex-active-slide .obra {
+  font-size: 90%;
+  position: relative;
+  top: -125px;
+  padding: 10px;
+  height: 0;
+}
+/* line 45, ../scss/_flexslider_narrow.scss */
+.flex-active-slide .obra-info {
+  font-size: 70%;
+  position: relative;
+  top: -60px;
+  padding: 10px 15px;
+  height: 0;
+}

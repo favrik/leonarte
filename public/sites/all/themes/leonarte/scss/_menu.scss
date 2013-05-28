@@ -1,0 +1,36 @@
+@import "variables";
+
+/* -- main menu -- */
+ul.menu {
+  li {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    list-style-image: none;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0 0;
+    display: block;
+
+    span.nolink {
+      font-size: 1.2em;
+      line-height: 1.2em;
+    }
+  }
+
+  li.leaf {
+    &.active-trail {
+      @include background-image(linear-gradient($gradient_start, $gradient_end));
+    }
+  }
+
+  a.active {
+    color: $whiteish;
+  }
+
+  li.expanded {
+    ul.menu {
+      border-top: 1px solid $gray;
+    }
+  }
+}
