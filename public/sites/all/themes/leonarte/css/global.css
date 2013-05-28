@@ -48,43 +48,54 @@ ul.menu li.expanded ul.menu {
   background: transparent;
   border: 0 none;
 }
-
 /* line 8, ../scss/_flexslider.scss */
+.flexslider .slides img {
+  width: initial;
+  margin: 0 auto;
+}
+
+/* line 13, ../scss/_flexslider.scss */
 .flex-control-thumbs {
   margin-bottom: 1.5em;
 }
+/* line 16, ../scss/_flexslider.scss */
+.flex-control-thumbs img {
+  opacity: 1;
+}
 
-/* line 11, ../scss/_flexslider.scss */
+/* line 20, ../scss/_flexslider.scss */
 .flex-control-thumbs li {
   width: initial;
   margin: 4px 5px;
   border: 1px solid #373737;
 }
 
-/* line 17, ../scss/_flexslider.scss */
+/* line 26, ../scss/_flexslider.scss */
 .flex-active-slide .field-content.obra-title {
   height: 0;
 }
-/* line 20, ../scss/_flexslider.scss */
+/* line 29, ../scss/_flexslider.scss */
 .flex-active-slide .transparency {
   background: black;
   opacity: 0.9;
-  height: 100px;
+  height: 60px;
   position: relative;
-  top: -100px;
+  top: -60px;
 }
-/* line 27, ../scss/_flexslider.scss */
+/* line 36, ../scss/_flexslider.scss */
 .flex-active-slide .obra {
+  font-size: 90%;
   position: relative;
-  top: -200px;
-  padding: 15px;
+  top: -125px;
+  padding: 10px;
   height: 0;
 }
-/* line 33, ../scss/_flexslider.scss */
+/* line 43, ../scss/_flexslider.scss */
 .flex-active-slide .obra-info {
+  font-size: 70%;
   position: relative;
-  top: -95px;
-  padding: 20px 15px;
+  top: -60px;
+  padding: 10px 15px;
   height: 0;
 }
 
@@ -104,9 +115,10 @@ HTML, BODY {
 #section-content {
   background: transparent;
   padding-bottom: 55px;
+  margin-bottom: 20px;
 }
 
-/* line 18, ../scss/_sticky_footer.scss */
+/* line 19, ../scss/_sticky_footer.scss */
 #section-footer {
   background: black url("/sites/all/themes/leonarte/css/images/grecas.jpg") no-repeat left top;
   position: absolute;
